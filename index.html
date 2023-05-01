@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mr_pizza</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.4/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1><a href="#"><img src="./images/mr.pizza_logo.jpg" alt="logo"></a></h1> 
+        <nav>
+            <p><a href="#">메뉴</a></p>
+            <p><a href="#">바로주문</a></p>
+            <p><a href="#">매장</a></p>
+            <p><a href="#">이벤트</a></p>
+            <p><a href="#">창업안내</a></p>
+        </nav>
+        <div class="user_menu">
+            <select name="lang" id="lang">
+                <option value="ko">KOR</option>
+                <option value="en">ENG</option>
+                <option value="ja">JAP</option>
+            </select>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+            <a href="#"><i class="fa-regular fa-cart-shopping"></i></a>
+            <a href=""><span></span><span></span></a><!-- hover menu -->
+        </div>
+    </header>
+    <main>
+        <div class="banner">
+            <a href="#"><img src="./images/banner1.png" alt="#"></a>
+        </div>
+        <div class="box">
+            <a href="#"><img src="./images/box1.jpg" alt=""></a>
+            <a href="#"><img src="./images/box2.jpg" alt=""></a>
+            <a href="#"><img src="./images/box3.jpg" alt=""></a>
+        </div>
+        <div class="container">
+            <h2>신메뉴</h2>
+            <ul class="contents">
+                <li>
+                    <a href="#"><img src="./images/new1.jpg" alt=""></a>
+                    <h2>포게더</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>한 판에 맛보는 미스터피 자 시그니처 4종!</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/new2.jpg" alt=""></a>
+                    <h2>킹 브레드 쉬림프 골드 칠리</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>킹 브레드 쉬림프와 칠리소스의 환상적인 만남!</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/new3.jpg" alt=""></a>
+                    <h2>햄벅한 새우</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>치즈 햄버거와 마요 콘새우의 행복한 맛남</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/new4.jpg" alt=""></a>
+                    <h2>미스터 트리오</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>30주년 기념 치블스·새우천왕·포테이토골드 3종을 한 판에!</p>
+                </li>
+            </ul>
+            <h2>인기메뉴</h2>
+            <ul class="contents">
+                <li>
+                    <a href="#"><img src="./images/pop1.jpg" alt=""></a>
+                    <h2>쉬림프 골드</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>
+                        스파이시 통새우가 아낌없이 올라가 씹을수록<br>
+                        탱글탱글한 식감에 매콤한 칠리소스의 화려한<br>
+                        조화가 환상적인 맛!</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/pop2.jpg" alt=""></a>
+                    <h2>새우 천왕</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>
+                        해물 토핑의 레전드 킹새우와 고기 토핑의 제왕<br>
+                        소불고기의 뜨거운 한판승부!</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/pop3.jpg" alt=""></a>
+                    <h2>포테이토 골드</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>
+                        고소하게 구운 감자와 맛있게 짭쪼롬한 베이컨이 듬뿍!<br>
+                        사워크림으로 깔끔한 맛까지 더한 스테디셀러 피자</p>
+                </li>
+                <li>
+                    <a href="#"><img src="./images/pop4.jpg" alt=""></a>
+                    <h2>하프앤하프</h2>
+                    <p><span>M 31,500</span><span>L 39,500</span><br>
+                        통새우 가득 쉬림프골드와 베이컨이 큼직한 포테이토골드!<br>
+                        미스터피자에서 가장 잘 나가는 피자들의 황금콜라보</p>
+                </li>
+            </ul>
+        </div>
+        <div class="discount">
+            <h2>특별한 할인 혜택</h2>
+            <ul class="box">
+                <li>
+                    <p>방문포장 최대<br><span>30%</span></p>
+                </li>
+                <li>
+                    <p>신규회원 가입시<br><span>20%</span></p>
+                </li>
+                <li>
+                    <p>생일기념<br><span>20%</span></p>
+                </li>
+                <li>
+                    <p>회원정보 수정시<br><span>20%</span></p>
+                </li>
+            </ul>
+        </div>
+        <div class="event_box">
+            <div class="bnr_text">
+                <div class="bnr1 bnr">
+                    <h2>미스터피자<br>
+                        <span>창업안내&amp;문의</span>
+                    </h2>
+                    <p>가맹점주님을 모십니다.</p>
+                    <p>자세히보기 &gt;</p>
+                </div>
+                <div class="bnr2 bnr" style="display: none;">
+                    <h2>한몫잡은 화요일<br>
+                        <span>40% OFF</span>
+                    </h2>
+                    <p>매주 화/목 베스트 <br>프리미엄 3종 40% 할인</p>
+                    <p>자세히보기 &gt;</p>
+                </div>
+                <div class="bnr3 bnr" style="display: none;">
+                    <h2>수지맞은 금요일<br>
+                        <span>매주 수/금 이벤트</span>
+                    </h2>
+                    <p>방문포장 시 클래식 3종 L 1+1</p>
+                    <p>자세히보기 &gt;</p>
+                </div>
+                <div class="bnr4 bnr" style="display: none;">
+                    <h2>보너스 파우치<br>
+                        <span>집에서 즐기는<br>미스터피자 풀~코스!</span>
+                    </h2>
+                    <p>피자&사이드&콜라</p>
+                    <p>자세히보기 ></p>
+                </div>
+            </div>
+            <div class="box_wrap">
+                <div class="box box1"><img src="./images/event1.jpg" alt=""></div><!--link클릭 시 변경 대상-->
+                <div class="box box2"><img src="./images/event2.jpg" alt=""></div>
+                <div class="box box3"><img src="./images/event3.jpg" alt=""></div>
+                <div class="box box4"><img src="./images/event4-2.jpg" alt=""></div>
+            </div>
+            <div class="right">
+                <div class="swiper wrap1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide link"><img src="./images/bnr1.jpg" alt="#"></div><!--클릭 대상&슬라이드 대상-->
+                        <div class="swiper-slide link"><img src="./images/bnr2.jpg" alt="#"></div>
+                        <div class="swiper-slide link"><img src="./images/bnr3.jpg" alt="#"></div>
+                        <div class="swiper-slide link"><img src="./images/bnr4.jpg" alt="#"></div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </main>
+    <script>
+        //right->box 변수
+        const link = document.querySelectorAll('.wrap1 .link')
+        const box = document.querySelectorAll('.box_wrap .box')
+        const event_text = document.querySelectorAll('.bnr')
+        //링크 클릭 시 박스 변경
+        link.forEach((e,i)=>{
+            e.addEventListener('click',()=>{
+                for(let j of box){j.style.display='none'}
+                box[i].style.display='block'
+            })
+        })
+        // 링크 클릭 시 문구 변경
+        event_text[1].style.display='none'
+        event_text[2].style.display='none'
+        event_text[3].style.display='none'
+        // event_text[0].style.display='block'
+        link.forEach((e,i)=>{
+            e.addEventListener('click',()=>{
+                for(let j of event_text){j.style.display='none'}
+                event_text[i].style.display='block'
+            })
+        })
+        //swiper
+            const swiper = new Swiper('.wrap1', {
+                direction:'vertical',
+                slidesPerView:3,
+                spaceBetween:20,
+                loop: true,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                pagination:{
+                    el:'.swiper-pagination',
+                    clickable:true,
+                },
+                height:250,//다음, 이전 클릭 시 한번에 넘어가는 높이 값
+            });
+        </script>
+    </main>
+</body>
+<footer>
+    <div class="top">
+        <div class="menu">
+            <a href="#">개인정보처리방침</a>
+            <a href="#">이용약관</a>
+            <a href="#">가족점모집</a>
+            <a href="#">고객만족센터</a>
+            <a href="#">단체주문/상품권</a>
+        </div>
+        <div class="site">
+            <select name="site" id="site">
+                <option value="ko">Korean</option>
+                <option value="en">English</option>
+                <option value="ch">Chinese</option>
+            </select>
+        </div>
+    </div>
+    <div class="btm">
+        <div class="copyright">
+            <address>경기도 성남시 분당구 판교로 255번길 35, 에이동 4층(삼평동) 대표이사:김영광,진형일 개인정보 관리책임자:한상근 통신판매업:2023-성남분당A-0191<br>
+                사업자등록번호 666-81-02675
+                <span>Copyright © Mr.Pizza All rights reserved.</span></address>
+            <div class="sns">
+                <a href="#"><img src="./images/facebook.jpg" alt=""></a>
+                <a href="#"><img src="./images/instagram.jpg" alt=""></a>
+                <a href="#"><img src="./images/kakaostory.jpg" alt=""></a>
+                <a href="#"><img src="./images/youtube.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="mark">
+            <p><img src="./images/ft_mark1.jpg" alt="">
+                대한민국 대표<br>
+                고객만족도 조사<br>
+                7회 수상<br>
+                (2007·2009-2014)</p>
+            <p><img src="./images/ft_mark2.jpg" alt="">
+                좋은기업 대상<br>
+                9회 연속수상</p>
+            <p><img src="./images/ft_mark3.jpg" alt="">
+                브랜드스타<br>
+                12회 연속수상</p>
+            <p><img src="./images/ft_mark4.jpg" alt="">
+                2021년<br>
+                세계일류상품<br>
+                차세대부분수상</p>
+            <p><img src="./images/ft_mark5.jpg" alt="">
+                세계 피자대회<br>
+                2019년 2관왕</p>
+        </div>
+        <p>전화주문<span>1577-0077</span></p>
+    </div>
+</footer>
