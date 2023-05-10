@@ -12,14 +12,14 @@ header .user_menu #lang {border-radius: 30px; border-color: gray; margin-left: n
 header .user_menu a i{font-weight: 600; font-size: 1.4rem;}
 main .banner {position: relative; z-index: 999;}
 main .box {display: flex; flex-flow: row nowrap; justify-content: center; margin: 80px 0;}
-main .box a {margin-left: 30px;border:1px solid #eee;padding:30px 130px; border-radius: 20px;/* box-shadow:1px 1px 10px #eee */ ;}
-main .box a:hover {box-shadow: 0 2px 5px #eee;}
+main .box a {margin-left: 30px;border:1px solid #eee;padding:30px 130px; border-radius: 20px;}
+main .box a:hover {box-shadow: 0 2px 10px #ccc;}
 main .box a:first-child {margin:0;}
 main .container {padding:0 100px;margin-top: 40px;}
 main .container > h2 {font-size:1.8rem; font-weight: 600;margin:0 0 40px 40px;}
 main .container .contents {display: flex; width: 1400px; margin: 0px auto 100px;}
 main .container .contents li {width: 25%;display: flex; flex-flow:column wrap;margin-right: 30px;}
-main .container .contents li a:hover { box-shadow:1px 1px 10px #333;}
+main .container .contents li a:hover { box-shadow:1px 1px 5px rgba(0,0,0,0.5);}
 main .container .contents li a {
     background: aqua;
     height: 215px;

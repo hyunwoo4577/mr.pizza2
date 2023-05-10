@@ -11,9 +11,9 @@ header .user_menu * {margin-left: 10px;}
 header .user_menu #lang {border-radius: 30px; border-color: gray; margin-left: none;color: gray;}
 header .user_menu a i{font-weight: 600; font-size: 1.4rem;}
 main .container {padding:0 100px;margin-top: 40px;}
-main .container .menu {padding:0 100px;width:1380px;margin:60px auto; display: flex; justify-content: space-between; border-bottom: 1px solid #444;}
-main .container .menu a {font-size: 1.2rem;color: #444;height: 44px;}
-main .container .menu a:hover {color:#da1931;border-bottom:2px solid #da1931;height:44px;}
+main .container .menu {padding:0 100px;width:1380px;margin:60px auto; display: flex; justify-content: space-between;}
+main .container .menu a {font-size: 1.2rem;font-weight: 600;color: #444;height: 44px;}
+main .container .menu a:hover {font-size: 1.2rem;font-weight: 600; color:#da1931;height:44px;}
 main .container > h2 {font-size:1.8rem; font-weight: 600;margin:80px 0 60px 100px;}
 main .container .contents {display: flex; width: 1400px; margin: 0px auto 100px;}
 main .container .contents li {width: 25%;display: flex; flex-flow:column wrap;margin-right: 10px;}
